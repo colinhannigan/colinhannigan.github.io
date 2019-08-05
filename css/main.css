@@ -1,24 +1,68 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 0;
+    background: rgb(189, 189, 189);
+    color: rgb(105, 105, 105);
+    padding: 0;
 }
-nav ul, footer ul {
+header {
+    margin: 0;
+    padding: 20px;
+    background: rgb(85, 85, 85);
+    color: white;
+}
+section {
+    margin: 0;
+    background: rgb(189, 189, 189);
+    color: rgb(105, 105, 105);
+    padding: 20px;
+}
+#tripleSection {
+    margin: 0;
+    background: rgb(189, 189, 189);
+    color: rgb(105, 105, 105);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#triple {
+    background: red;
+    margin: auto;
+    width: 100px;
+}
+nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    margin: 0;
+    background: rgb(85, 85, 85);
+    color: white;   
 }
-nav ul li, footer ul li {
-    display: inline;
+.contact li {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    padding: 0px 0px 10px 0px
+}
+
+nav ul li {
+    display: inline-block;
     margin-right: 20px;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: rgb(175, 175, 175);
 }
 a:hover {
     text-decoration: underline;
 }
+
+a:active {
+    background-color: blue;
+}
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -26,11 +70,13 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    margin: 0;
+    background: rgb(85, 85, 85);
+    color: white;    
 }
 
 ul.posts {
