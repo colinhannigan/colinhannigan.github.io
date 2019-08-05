@@ -96,16 +96,19 @@ section {
 
 .moreInfo {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    position: relative;
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
     line-height: 1.4em;
+    padding: 2rem 0rem 0rem 0rem;
 }
 
 .moreInfoLink {
     color: rgb(85, 85, 85);
+    position: relative;
     margin: 0;
-    padding: .625rem;
+    padding: .625rem 0rem .625rem 0rem;
     text-align: center;
     border: .3125rem solid  rgb(85, 85, 85);
 }
@@ -120,6 +123,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    position: relative;
     text-align: center;
     padding: 3.125rem 0rem .625rem 0rem;
 }
@@ -130,7 +134,8 @@ p {
 
 .intro {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0rem 12.5rem 3.125rem;
+    padding: 2rem 2rem;
+    position: relative;
     text-align: center;
 
 }
@@ -156,14 +161,22 @@ ul.posts li {
 @media screen and (max-width:848px) {
     .desktop {
         display: none;
+
     }
     .mobile:not(.logo) {
+        position: relative;
         list-style-type: none;
         margin-right: 1.25rem;
         display: inline-block;
         text-align: center;
     }
     .mobile.logo {
+        position: relative;
         display: block; 
         padding: 0rem 0rem 2rem 0rem;
+        margin: 0;   
     }
+
+
+
+}
