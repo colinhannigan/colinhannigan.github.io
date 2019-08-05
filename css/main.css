@@ -2,17 +2,16 @@
     width: device-width;
     zoom: 1.0;
 }
+
 body {
     margin: 0;
     background: rgb(189, 189, 189);
-    color: rgb(105, 105, 105);
     padding: 0;
 }
 header {
     margin: 0;
-    padding: 1.25rem;
+    padding: 1.25rem 0rem 1.25rem 0rem;
     background: rgb(85, 85, 85);
-    color: white;
     text-align: center;
 
 }
@@ -51,20 +50,41 @@ section {
     padding: 0;
 }
 
-header li {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+.desktop {
     padding: 0rem;
     list-style-type: none;
-    font-weight: bold;
     margin-right: 1.25rem;
     display: inline-block;
 }
 
-header a.siteLinks {
+.siteLinks a:not(.logo) {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
     color: rgb(189, 189, 189);
 }
+
+.desktop .logo {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: bold;
+    color: white;
+    border: .3125rem solid white;
+    padding: .625rem;
+}
+
+.mobile .logo {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: bold;
+    color: white;
+    border: .3125rem solid white;
+    padding: .625rem;
+}
+.mobile {
+    display: none;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: bold;
+    color: rgb(189, 189, 189);
+}
+
 
 .contact li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -72,16 +92,6 @@ header a.siteLinks {
     display: inline-block;
     margin-right: .625rem;
     vertical-align: middle;
-}
-
-.header li {
-    display: inline-block;
-    margin-right: 1.25rem;
-}
-.logo {
-    color: white;
-    border: .3125rem solid white;
-    padding: .625rem;
 }
 
 .moreInfo {
@@ -141,3 +151,19 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+
+@media screen and (max-width:848px) {
+    .desktop {
+        display: none;
+    }
+    .mobile:not(.logo) {
+        list-style-type: none;
+        margin-right: 1.25rem;
+        display: inline-block;
+        text-align: center;
+    }
+    .mobile.logo {
+        display: block; 
+        padding: 0rem 0rem 2rem 0rem;
+    }
