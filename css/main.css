@@ -18,17 +18,23 @@ section {
     color: white;
     padding: 20px;
 }
-#tripleSection {
+
+.tripleSection {
     margin: 0;
+    padding: 0;
     background: rgb(189, 189, 189);
     color: rgb(105, 105, 105);
-    padding: 20px;
     display: flex;
     flex-direction: row;
+    font-size: 0px;
 }
-#triple {
-    margin: auto;
+.triple {
+    margin: 0;
+    float: left;
+    width: 33.3%;
+    padding: 0;
 }
+
 header li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -50,7 +56,6 @@ header a.siteLinks {
     display: inline-block;
     margin-right: 10px;
     vertical-align: middle;
-    padding: 0px 0px 10px 0px;
 }
 
 .header li {
@@ -59,6 +64,8 @@ header a.siteLinks {
 }
 .logo {
     color: white;
+    border: 5px solid white;
+    padding: 10px;
 }
 
 .moreInfo {
@@ -75,6 +82,8 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-align: center;
+    padding: 50px 0px 10px 0px;
 }
 p {
     font-size: 1.5em;
@@ -86,6 +95,7 @@ footer {
     margin: 0;
     background: rgb(85, 85, 85);
     color: white;    
+    padding: 1px;
 }
 
 ul.posts {
