@@ -168,15 +168,41 @@ ul.posts li {
         list-style-type: none;
         margin-right: 1.25rem;
         display: inline-block;
-        text-align: center;
     }
+    #aboutMobile {
+        position: relative;
+        left: -1.1rem;
+    }
+
+    #logoMobile {
+        position: relative;
+        left: -1.1rem;
+    }
+
     .mobile.logo {
         position: relative;
         display: block; 
         padding: 0rem 0rem 2rem 0rem;
         margin: 0;   
     }
-
-
-
+    .moreInfo {
+        font-family:'Helvetica', 'Arial', 'Sans-Serif';
+        position: relative;
+        text-align: center;
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: 1.1em;
+        padding: 2rem 0rem 0rem 0rem;
+    }
+    .moreInfoLink {
+        color: rgb(85, 85, 85);
+        position: relative;
+        margin: 0;
+        padding: .625rem .25rem .625rem .25rem;
+        text-align: center;
+        border: .25rem solid  rgb(85, 85, 85);
+    }
+    .contact img {
+        width: 1.1rem;
+    }
 }
