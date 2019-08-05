@@ -10,7 +10,7 @@ body {
 }
 header {
     margin: 0;
-    padding: 20px;
+    padding: 1.25rem;
     background: rgb(85, 85, 85);
     color: white;
     text-align: center;
@@ -20,11 +20,11 @@ section {
     margin: 0;
     background: rgb(189, 189, 189);
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .sextet {
-    padding: 50px;
+    padding: 3.125rem;
 }
 
 .triple1 {
@@ -42,7 +42,7 @@ section {
     color: rgb(105, 105, 105);
     display: flex;
     flex-direction: row;
-    font-size: 0px;
+    font-size: 0rem;
 }
 .tripleSection div {
     margin: 0;
@@ -53,10 +53,10 @@ section {
 
 header li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 0rem;
     list-style-type: none;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     display: inline-block;
 }
 
@@ -70,18 +70,18 @@ header a.siteLinks {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: .625rem;
     vertical-align: middle;
 }
 
 .header li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 .logo {
     color: white;
-    border: 5px solid white;
-    padding: 10px;
+    border: .3125rem solid white;
+    padding: .625rem;
 }
 
 .moreInfo {
@@ -95,9 +95,9 @@ header a.siteLinks {
 .moreInfoLink {
     color: rgb(85, 85, 85);
     margin: 0;
-    padding: 10px;
+    padding: .625rem;
     text-align: center;
-    border: 5px solid  rgb(85, 85, 85);
+    border: .3125rem solid  rgb(85, 85, 85);
 }
 
 a {
@@ -111,7 +111,7 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
-    padding: 50px 0px 10px 0px;
+    padding: 3.125rem 0rem .625rem 0rem;
 }
 p {
     font-size: 1.5em;
@@ -120,21 +120,21 @@ p {
 
 .intro {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px 200px 50px;
+    padding: 0rem 12.5rem 3.125rem;
     text-align: center;
 
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: .0625rem solid #d5d5d5;
     font-size: .8em;
     margin: 0;
     background: rgb(85, 85, 85);
     color: white;    
-    padding: 1px;
+    padding: .0625rem;
 }
 
 ul.posts {
-    margin: 20px auto 40px;
+    margin: 1.25rem auto 2.5rem;
     font-size: 1.5em;
 }
 
