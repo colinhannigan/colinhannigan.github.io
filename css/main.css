@@ -113,6 +113,14 @@ section {
     border: .3125rem solid  rgb(85, 85, 85);
 }
 
+#cv {
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+#cvLink {
+    padding: .625rem .5rem .625rem .5rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -203,14 +211,6 @@ ul.posts li {
         border: .25rem solid  rgb(85, 85, 85);
     }
 
-    .cvLink {
-        color: rgb(85, 85, 85);
-        position: relative;
-        margin: 0;
-        padding: .625rem .25rem .625rem .25rem;
-        text-align: center;
-        border: .25rem solid  rgb(85, 85, 85);
-    }
 
     .contact img {
         width: 1.1rem;
