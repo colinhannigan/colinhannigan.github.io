@@ -117,6 +117,14 @@ section {
     padding: 1rem 0rem 2rem 0rem;
 }
 
+.iFrameDesktop {
+display: block;
+}
+
+.iFrameMobile {
+display: none;
+}
+
 #cvLink {
     padding: .625rem .5rem .625rem .5rem;
 }
@@ -221,5 +229,18 @@ ul.posts li {
         text-align: center;
         width: "50%";
         height: "50%"
+    }
+
+    .iFramePDF {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .iFrameDesktop {
+        display: none;
+        }
+        
+    .iFrameMobile {
+    display: block;
     }
 }
