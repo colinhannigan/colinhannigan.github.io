@@ -202,7 +202,24 @@ ul.posts li {
         text-align: center;
         border: .25rem solid  rgb(85, 85, 85);
     }
+
+    .cvLink {
+        color: rgb(85, 85, 85);
+        position: relative;
+        margin: 0;
+        padding: .625rem .25rem .625rem .25rem;
+        text-align: center;
+        border: .25rem solid  rgb(85, 85, 85);
+    }
+
     .contact img {
         width: 1.1rem;
+    }
+    .cvFrame {
+        background-color: red;
+        position: relative;
+        text-align: center;
+        width: "50%";
+        height: "50%"
     }
 }
