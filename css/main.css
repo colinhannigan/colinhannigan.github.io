@@ -19,35 +19,75 @@ section {
     margin: 0;
     background: rgb(189, 189, 189);
     color: white;
-    padding: 1.25rem;
 }
 
 .sextet {
     padding: 3.125rem;
 }
 
-.triple1 {
-    background: url('https://colinhannigan.github.io/img/ireland2a.jpg');
+.tripleTL {
+    background: url('https://colinhannigan.github.io/img/ireland2a.jpg') no-repeat;
+    background-size: 25vh;
 } 
-
-.triple1:hover {
-    background: url('https://colinhannigan.github.io/img/ireland2b.jpg');
+.tripleTL:hover {
+    background: url('https://colinhannigan.github.io/img/ireland2b.jpg') no-repeat;
+    background-size: 25vh;
+}
+.tripleTM {
+    background: url('https://colinhannigan.github.io/img/ireland1a.jpg') no-repeat;
+    background-size: 25vh;
+} 
+.tripleTM:hover {
+    background: url('https://colinhannigan.github.io/img/ireland1b.jpg') no-repeat;
+    background-size: 25vh;
+}
+.tripleTR {
+    background: url('https://colinhannigan.github.io/img/ireland3a.jpg') no-repeat;
+    background-size: 25vh;
+} 
+.tripleTR:hover {
+    background: url('https://colinhannigan.github.io/img/ireland3b.jpg') no-repeat;
+    background-size: 25vh;
+}
+.tripleBL {
+    background: url('https://colinhannigan.github.io/img/ireland4a.jpg') no-repeat;
+    background-size: 25vh;
+} 
+.tripleBL:hover {
+    background: url('https://colinhannigan.github.io/img/ireland4b.jpg') no-repeat;
+    background-size: 25vh;
+}
+.tripleBM {
+    background: url('https://colinhannigan.github.io/img/ireland5a.jpg') no-repeat;
+    background-size: 25vh;
+} 
+.tripleBM:hover {
+    background: url('https://colinhannigan.github.io/img/ireland5b.jpg') no-repeat;
+    background-size: 25vh;
+}
+.tripleBR {
+    background: url('https://colinhannigan.github.io/img/ireland6a.jpg') no-repeat;
+    background-size: 25vh;
+} 
+.tripleBR:hover {
+    background: url('https://colinhannigan.github.io/img/ireland6b.jpg') no-repeat;
+    background-size: 25vh;
 }
 
 .tripleSection {
-    margin: 0;
     padding: 0;
     background: rgb(189, 189, 189);
     color: rgb(105, 105, 105);
     display: flex;
     flex-direction: row;
-    font-size: 0rem;
+    justify-content: center;
 }
 .tripleSection div {
-    margin: 0;
-    float: left;
-    width: 33.3%;
+    margin: 2px;
+    height: 17vh;
+    width: 25vh;
     padding: 0;
+    background-color: pink;
 }
 
 .desktop {
@@ -142,6 +182,75 @@ h1 {
     position: relative;
     text-align: center;
     padding: 3.125rem 0rem .625rem 0rem;
+}
+h2 {
+    font-size: 1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    position: relative;
+}
+h2 p{
+margin: 0;
+border: .3125rem solid white;
+padding: 0rem 1rem 0rem 1rem;
+}
+.teaching div{
+    list-style: none;
+    padding:  0rem 0rem 2rem 0rem;
+}
+.currentCourses div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.previousCourses div{
+    display: block;
+    flex-direction: row;
+}
+
+.currentCourses div li,.previousCourses div li{
+    margin-right: 1rem;
+    background-size: cover;
+    height: 31vh;
+    width: 35vh;
+    position: relative;
+}
+.currentCourses div li:not(.current){
+    display: none;
+}
+.previousCourses .current{
+    display: none;
+}
+    .introIR{
+        background: url('http://www.apa.org/Images/cirp-title-image_tcm7-218184.jpg') no-repeat;
+    }
+    .politicalLife{
+        background: url('https://stmedia.stimg.co/ows_153964203174289.jpg?auto=compress&crop=faces&dpr=1&w=525') no-repeat;
+    }
+    .conflictAndHumanRights{
+        background: url('https://img2.tgcom24.mediaset.it/binary/articolo/ansa/16.$plit/C_2_articolo_3032365_upiFoto1F.jpg') no-repeat;
+    }
+    .modelUN{
+        background: url('https://www.txstate.edu/cachefac1e407d0f65556452535d8795e6adf/imagehandler/scaler/gato-docs.its.txstate.edu/jcr:d9d6c944-bdfa-435c-95fc-2da85c11f961/United-Nation-everything-pr.jpg?mode=fit&width=1550') no-repeat;
+    }
+    .latinAmericanPolitics{
+        background: url('https://i.pinimg.com/564x/6d/85/b9/6d85b931aaaf64c87582285634ea84ad--south-america-map-sud-america.jpg') no-repeat;
+   }
+    .revolutionsAndSocialMovements{
+        background: url('http://laoms.org/wp-content/uploads/2017/12/img_5941.jpg') no-repeat;
+    }
+    .policyMemo{
+        background: url('https://www.deccanherald.com/sites/dh/files/article_images/2018/01/24/655644.jpg') no-repeat;
+    }
+    .FYS{
+        background: url('https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1437202991i/15548077.jpg') no-repeat;
+    }
+section.teaching div div li:hover{
+    opacity: .5;
+}
+
+section.teaching div div li p{
+    padding: 16rem 0rem 0rem 0rem;
+    text-align: center;
 }
 p {
     font-size: 1.5em;
