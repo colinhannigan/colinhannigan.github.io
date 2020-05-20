@@ -28,7 +28,7 @@ section {
 .tripleTL {
     background: url('https://colinhannigan.github.io/img/ireland2a.jpg') no-repeat;
     background-size: 25vh;
-} 
+}
 .tripleTL:hover {
     background: url('https://colinhannigan.github.io/img/ireland2b.jpg') no-repeat;
     background-size: 25vh;
@@ -36,7 +36,7 @@ section {
 .tripleTM {
     background: url('https://colinhannigan.github.io/img/ireland1a.jpg') no-repeat;
     background-size: 25vh;
-} 
+}
 .tripleTM:hover {
     background: url('https://colinhannigan.github.io/img/ireland1b.jpg') no-repeat;
     background-size: 25vh;
@@ -44,7 +44,7 @@ section {
 .tripleTR {
     background: url('https://colinhannigan.github.io/img/ireland3a.jpg') no-repeat;
     background-size: 25vh;
-} 
+}
 .tripleTR:hover {
     background: url('https://colinhannigan.github.io/img/ireland3b.jpg') no-repeat;
     background-size: 25vh;
@@ -52,7 +52,7 @@ section {
 .tripleBL {
     background: url('https://colinhannigan.github.io/img/ireland4a.jpg') no-repeat;
     background-size: 25vh;
-} 
+}
 .tripleBL:hover {
     background: url('https://colinhannigan.github.io/img/ireland4b.jpg') no-repeat;
     background-size: 25vh;
@@ -60,7 +60,7 @@ section {
 .tripleBM {
     background: url('https://colinhannigan.github.io/img/ireland5a.jpg') no-repeat;
     background-size: 25vh;
-} 
+}
 .tripleBM:hover {
     background: url('https://colinhannigan.github.io/img/ireland5b.jpg') no-repeat;
     background-size: 25vh;
@@ -68,7 +68,7 @@ section {
 .tripleBR {
     background: url('https://colinhannigan.github.io/img/ireland6a.jpg') no-repeat;
     background-size: 25vh;
-} 
+}
 .tripleBR:hover {
     background: url('https://colinhannigan.github.io/img/ireland6b.jpg') no-repeat;
     background-size: 25vh;
@@ -98,13 +98,13 @@ section {
 }
 
 .siteLinks a:not(.logo) {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Garamond';
     font-weight: bold;
     color: rgb(189, 189, 189);
 }
 
 .desktop .logo {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Garamond';
     font-weight: bold;
     color: white;
     border: .3125rem solid white;
@@ -112,7 +112,7 @@ section {
 }
 
 .mobile .logo {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Garamond';
     font-weight: bold;
     color: white;
     border: .3125rem solid white;
@@ -120,14 +120,14 @@ section {
 }
 .mobile {
     display: none;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Garamond';
     font-weight: bold;
     color: rgb(189, 189, 189);
 }
 
 
 .contact li {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Garamond';
     font-weight: bold;
     display: inline-block;
     margin-right: .625rem;
@@ -135,7 +135,7 @@ section {
 }
 
 .moreInfo {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Garamond';
     position: relative;
     text-align: center;
     font-size: 1.5em;
@@ -178,14 +178,14 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Garamond';
     position: relative;
     text-align: center;
     padding: 3.125rem 0rem .625rem 0rem;
 }
 h2 {
     font-size: 1.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Garamond';
     position: relative;
 }
 h2 p{
@@ -194,26 +194,30 @@ border: .3125rem solid white;
 padding: 0rem 1rem 0rem 1rem;
 }
 .teaching div{
-    list-style: none;
-    padding:  0rem 0rem 2rem 0rem;
+    margin:  0rem 0rem 10rem 0rem;
 }
-.currentCourses div{
+.teaching div div{
+    list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: center;
+    position: absolute;
 }
-.previousCourses div{
-    display: block;
-    flex-direction: row;
-}
-
 .currentCourses div li,.previousCourses div li{
     margin-right: 1rem;
     background-size: cover;
-    height: 31vh;
-    width: 35vh;
+    width: 40%;
+    height: 100px;
     position: relative;
+    padding: 0rem 0rem 0rem 0rem;
 }
+.currentCourses div:first-of-type{
+    margin: 0rem 1rem 0rem 1rem;
+}
+.previousCourses div:first-of-type{
+    margin: 0rem 1rem 0rem 1rem;
+}
+
 .currentCourses div li:not(.current){
     display: none;
 }
@@ -249,7 +253,7 @@ section.teaching div div li:hover{
 }
 
 section.teaching div div li p{
-    padding: 16rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
     text-align: center;
 }
 p {
@@ -258,7 +262,7 @@ p {
 }
 
 .intro {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Garamond';
     padding: 2rem 2rem;
     position: relative;
     text-align: center;
@@ -269,7 +273,7 @@ footer {
     font-size: .8em;
     margin: 0;
     background: rgb(85, 85, 85);
-    color: white;    
+    color: white;
     padding: .0625rem;
 }
 
@@ -306,12 +310,12 @@ ul.posts li {
 
     .mobile.logo {
         position: relative;
-        display: block; 
+        display: block;
         padding: 0rem 0rem 2rem 0rem;
-        margin: 0;   
+        margin: 0;
     }
     .moreInfo {
-        font-family:'Helvetica', 'Arial', 'Sans-Serif';
+        font-family:'Garamond';
         position: relative;
         text-align: center;
         font-size: 1.1em;
@@ -348,7 +352,7 @@ ul.posts li {
     .iFrameDesktop {
         display: none;
         }
-        
+
     .iFrameMobile {
     display: block;
     }
