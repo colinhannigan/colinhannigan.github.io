@@ -5,19 +5,19 @@
 
 body {
     margin: 0;
-    background: rgb(210, 166, 121);
+    background: rgb(147, 142, 148);
     padding: 0;
 }
 header {
     margin: 0;
     padding: 1.25rem 0rem 1.25rem 0rem;
-    background: rgb(85, 85, 85);
+    background: rgb(85, 122, 151);
     text-align: center;
 
 }
 section {
     margin: 0;
-    background: rgb(210, 166, 121);
+    background: rgb(147, 142, 148);
     color: white;
 }
 
@@ -145,12 +145,12 @@ section {
 }
 
 .moreInfoLink {
-    color: rgb(85, 85, 85);
+    color: rgb(93, 92, 97);
     position: relative;
     margin: 0;
     padding: .625rem 0rem .625rem 0rem;
     text-align: center;
-    border: .3125rem solid  rgb(85, 85, 85);
+    border: .3125rem solid  rgb(93, 92, 97);
 }
 
 #cv {
@@ -269,10 +269,10 @@ p {
 
 }
 footer {
-    border-top: .0625rem solid #d5d5d5;
+    border-top: .0625rem solid rgb(85, 122, 151);
     font-size: .8em;
     margin: 0;
-    background: rgb(85, 85, 85);
+    background: rgb(85, 122, 151);
     color: white;
     padding: .0625rem;
 }
@@ -324,12 +324,12 @@ ul.posts li {
         padding: 2rem 0rem 0rem 0rem;
     }
     .moreInfoLink {
-        color: rgb(85, 85, 85);
+        color: rgb(93, 92, 97);
         position: relative;
         margin: 0;
         padding: .625rem .25rem .625rem .25rem;
         text-align: center;
-        border: .25rem solid  rgb(85, 85, 85);
+        border: .25rem solid  rgb(93, 92, 97);
     }
 
 
