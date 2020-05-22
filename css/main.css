@@ -19,6 +19,7 @@ header {
 }
 section {
     margin: 0;
+    
     /* background: rgb(147, 142, 148); */
     color: white;
 }
@@ -82,6 +83,7 @@ section {
     /* position: relative; */
     /* padding: 0rem 0rem 0rem 0rem; */
     background-color: rgb(147, 142, 148);
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     border-radius: 50%;
     text-align: center;
     width: 14rem;
@@ -155,14 +157,16 @@ section {
     position: relative;
     font-size: 1.5em;
     font-weight: bold;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     /* line-height: 1.5em; */
     color: rgb(93, 92, 97);
     /* padding: 2rem 0rem 0rem 0rem; */
     margin: auto;
     background-color: rgb(147, 142, 148);
     text-align: center;
-    width: 30rem;
-    height: 4.5rem;
+    width: 22rem;
+    height: 2rem;
     border: .4rem solid  rgb(94, 92, 94);
 }
 
@@ -213,23 +217,35 @@ h2 p{
 margin: 0;
 border: .3125rem solid white;
 padding: 0rem 1rem 0rem 1rem;
+margin: auto;
+background-color: rgb(147, 142, 148);
+text-align: center;
+width: 22rem;
+height: 3rem;
+border: .4rem solid  rgb(94, 92, 94);
 }
 .teaching div{
     margin:  0rem 0rem 10rem 0rem;
 }
 .teaching div div{
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: absolute;
+    display: table;
+    border-spacing: 2rem;
+    /* flex-direction: row; */
+    /* text-align: center; */
+    position: relative;
 }
 .currentCourses div li,.previousCourses div li{
     margin-right: 1rem;
+    /* margin: auto; */
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
     background-size: cover;
-    width: 40%;
-    height: 100px;
+    width: 15rem;
+    height: 15rem;
     position: relative;
+    border: .4rem solid rgb(85, 122, 151);
     padding: 0rem 0rem 0rem 0rem;
 }
 .currentCourses div:first-of-type{
@@ -247,12 +263,22 @@ padding: 0rem 1rem 0rem 1rem;
 }
     .introIR{
         background: url('http://www.apa.org/Images/cirp-title-image_tcm7-218184.jpg') no-repeat;
+        background-position: -5rem;
+    }
+    .methods{
+        background: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/122434055/original/f772655221f3b94e56698642860212a21c415d22/analyze-and-compile-data.jpg') no-repeat;
+    }
+    .capstone{
+        background: url('https://assets.wired.com/photos/w_1025/wp-content/uploads/2014/06/human-conservation.jpg') no-repeat;
     }
     .politicalLife{
         background: url('https://stmedia.stimg.co/ows_153964203174289.jpg?auto=compress&crop=faces&dpr=1&w=525') no-repeat;
+        background-position: -4.5rem;
+        background-size: 40rem;
     }
     .conflictAndHumanRights{
         background: url('https://img2.tgcom24.mediaset.it/binary/articolo/ansa/16.$plit/C_2_articolo_3032365_upiFoto1F.jpg') no-repeat;
+        background-position: -8rem;
     }
     .modelUN{
         background: url('https://www.txstate.edu/cachefac1e407d0f65556452535d8795e6adf/imagehandler/scaler/gato-docs.its.txstate.edu/jcr:d9d6c944-bdfa-435c-95fc-2da85c11f961/United-Nation-everything-pr.jpg?mode=fit&width=1550') no-repeat;
@@ -265,6 +291,7 @@ padding: 0rem 1rem 0rem 1rem;
     }
     .policyMemo{
         background: url('https://www.deccanherald.com/sites/dh/files/article_images/2018/01/24/655644.jpg') no-repeat;
+        background-position: -6rem;
     }
     .FYS{
         background: url('https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1437202991i/15548077.jpg') no-repeat;
@@ -336,19 +363,18 @@ ul.posts li {
         margin: 0;
     }
     .moreInfo {
-        margin: auto;
         font-family:'Garamond';
-        /* position: relative; */
+        position: relative;
         text-align: center;
         font-size: 1.1em;
         font-weight: bold;
         line-height: 1.1em;
-        /* padding: 2rem 0rem 0rem 0rem; */
+        padding: 2rem 0rem 0rem 0rem;
     }
     .moreInfoLink {
         color: rgb(93, 92, 97);
         position: relative;
-        /* margin: 0; */
+        margin: 0;
         /* padding: .625rem .25rem .625rem .25rem; */
         text-align: center;
         border: .25rem solid  rgb(93, 92, 97);
