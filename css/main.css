@@ -268,7 +268,7 @@ border: .4rem solid  rgb(94, 92, 94);
     .methods{
         background: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/122434055/original/f772655221f3b94e56698642860212a21c415d22/analyze-and-compile-data.jpg') no-repeat;
     }
-    .capstone{
+    .capstonePubAff{
         background: url('https://assets.wired.com/photos/w_1025/wp-content/uploads/2014/06/human-conservation.jpg') no-repeat;
     }
     .politicalLife{
@@ -276,7 +276,7 @@ border: .4rem solid  rgb(94, 92, 94);
         background-position: -4.5rem;
         background-size: 40rem;
     }
-    .conflictAndHumanRights{
+    .warGames{
         background: url('https://img2.tgcom24.mediaset.it/binary/articolo/ansa/16.$plit/C_2_articolo_3032365_upiFoto1F.jpg') no-repeat;
         background-position: -8rem;
     }
@@ -286,7 +286,7 @@ border: .4rem solid  rgb(94, 92, 94);
     .latinAmericanPolitics{
         background: url('https://i.pinimg.com/564x/6d/85/b9/6d85b931aaaf64c87582285634ea84ad--south-america-map-sud-america.jpg') no-repeat;
    }
-    .revolutionsAndSocialMovements{
+    .revs{
         background: url('http://laoms.org/wp-content/uploads/2017/12/img_5941.jpg') no-repeat;
     }
     .policyMemo{
@@ -295,6 +295,18 @@ border: .4rem solid  rgb(94, 92, 94);
     }
     .FYS{
         background: url('https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1437202991i/15548077.jpg') no-repeat;
+    }
+    .capstoneIR{
+        background: url('https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1437202991i/15548077.jpg') no-repeat;
+    }
+    .data162{
+        background: url('https://getnave.com/blog/wp-content/uploads/2018/08/cycle-time-scatterplot-patterns.png') no-repeat;
+    }
+    .data272{
+        background: url('https://getnave.com/blog/wp-content/uploads/2018/08/cycle-time-scatterplot-patterns.png') no-repeat;
+    }
+    .democratization{
+        background: url('https://my.vanderbilt.edu/vanderbiltdivinity/files/2018/11/voting.jpg') no-repeat;
     }
 section.teaching div div li:hover{
     opacity: .5;
