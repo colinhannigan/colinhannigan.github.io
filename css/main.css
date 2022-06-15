@@ -242,9 +242,9 @@ border: .4rem solid  rgb(94, 92, 94);
     display: table-cell;
     vertical-align: middle;
     background-size: cover;
-    width: 15rem;
-    height: 15rem;
-    position: relative;
+    width: 30px;
+    height: 30px;
+    /* position: relative; */
     border: .4rem solid rgb(85, 122, 151);
     padding: 0rem 0rem 0rem 0rem;
 }
@@ -259,7 +259,11 @@ border: .4rem solid  rgb(94, 92, 94);
     display: none;
 }
 .previousCourses .current{
+    /* display: inline-block;
+    text-align: center;
+    width: 60px; */
     display: none;
+
 }
     .introIR{
         background: url('http://www.apa.org/Images/cirp-title-image_tcm7-218184.jpg') no-repeat;
@@ -314,6 +318,10 @@ section.teaching div div li:hover{
 
 .caption {
     display: block;
+    padding: 0rem 0rem 0rem 0rem;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.4em;
 }
 
 section.teaching div div li p{
