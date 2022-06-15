@@ -312,6 +312,10 @@ section.teaching div div li:hover{
     opacity: .5;
 }
 
+.caption {
+    display: block;
+}
+
 section.teaching div div li p{
     padding: 0rem 0rem 0rem 0rem;
     text-align: center;
