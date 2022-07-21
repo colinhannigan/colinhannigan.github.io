@@ -179,7 +179,7 @@ section {
 }
 
 #cv {
-    padding: 1rem 0rem 2rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
 }
 
 .iFrameDesktop {
@@ -224,38 +224,85 @@ width: 22rem;
 height: 3rem;
 border: .4rem solid  rgb(94, 92, 94);
 }
+
 .teaching div{
     margin:  0rem 0rem 10rem 0rem;
 }
-.teaching div div{
-    list-style: none;
+
+.teaching div table{
+    /* list-style: none; */
     display: table;
     border-spacing: 2rem;
-    /* flex-direction: row; */
-    /* text-align: center; */
-    position: relative;
+    /* flex-direction: column; */
+    text-align: center;
+    /* position: relative; */
 }
-.currentCourses div li,.previousCourses div li{
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.break {
+    flex-basis: 100%;
+    width: 0;
+  }
+
+.currentCourses table tr td{
     margin-right: 1rem;
     /* margin: auto; */
-    border-radius: 50%;
+    /* border-radius: 50%; */
     display: table-cell;
-    vertical-align: middle;
-    background-size: cover;
-    width: 30px;
-    height: 30px;
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* flex: 3  40%; */
+    vertical-align: top;
+    /* background-size: cover; */
+    width: 150px;
+    height: 150px;
     /* position: relative; */
+    /* border: .4rem solid rgb(85, 122, 151); */
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.currentCourses table tr td img{
+    margin-right: 1rem;
+    border-radius: 50%;
+    display:block; width:150px; height:150px;
     border: .4rem solid rgb(85, 122, 151);
     padding: 0rem 0rem 0rem 0rem;
 }
-.currentCourses div:first-of-type{
-    margin: 0rem 1rem 0rem 1rem;
-}
-.previousCourses div:first-of-type{
-    margin: 0rem 1rem 0rem 1rem;
+
+.previousCourses table tr td{
+    margin-right: 1rem;
+    /* margin: auto; */
+    /* border-radius: 50%; */
+    display: table-cell;
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* flex: 3  40%; */
+    vertical-align: top;
+    /* background-size: cover; */
+    width: 150px;
+    height: 150px;
+    /* position: relative; */
+    /* border: .4rem solid rgb(85, 122, 151); */
+    padding: 0rem 0rem 0rem 0rem;
 }
 
-.currentCourses div li:not(.current){
+.previousCourses table{
+    columns:3;
+}
+.previousCourses table tr td img{
+    margin-right: 1rem;
+    border-radius: 50%;
+    display:block; width:150px; height:150px;
+    border: .4rem solid rgb(85, 122, 151);
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+
+.currentCourses table tr td:not(.current){
     display: none;
 }
 .previousCourses .current{
@@ -265,59 +312,13 @@ border: .4rem solid  rgb(94, 92, 94);
     display: none;
 
 }
-    .introIR{
-        background: url('http://www.apa.org/Images/cirp-title-image_tcm7-218184.jpg') no-repeat;
-        background-position: -5rem;
-    }
-    .methods{
-        background: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/122434055/original/f772655221f3b94e56698642860212a21c415d22/analyze-and-compile-data.jpg') no-repeat;
-    }
-    .capstonePubAff{
-        background: url('https://assets.wired.com/photos/w_1025/wp-content/uploads/2014/06/human-conservation.jpg') no-repeat;
-    }
-    .politicalLife{
-        background: url('https://www.capturehighered.com/wp-content/uploads/2018/11/charitable-giving-980x550.jpg') no-repeat;
-        background-position: -4.5rem;
-        background-size: 40rem;
-    }
-    .warGames{
-        background: url('https://img2.tgcom24.mediaset.it/binary/articolo/ansa/16.$plit/C_2_articolo_3032365_upiFoto1F.jpg') no-repeat;
-        background-position: -8rem;
-    }
-    .modelUN{
-        background: url('https://www.txstate.edu/cachefac1e407d0f65556452535d8795e6adf/imagehandler/scaler/gato-docs.its.txstate.edu/jcr:d9d6c944-bdfa-435c-95fc-2da85c11f961/United-Nation-everything-pr.jpg?mode=fit&width=1550') no-repeat;
-    }
-    .latinAmericanPolitics{
-        background: url('https://i.pinimg.com/564x/6d/85/b9/6d85b931aaaf64c87582285634ea84ad--south-america-map-sud-america.jpg') no-repeat;
-   }
-    .revs{
-        background: url('http://laoms.org/wp-content/uploads/2017/12/img_5941.jpg') no-repeat;
-    }
-    .policyMemo{
-        background: url('https://www.deccanherald.com/sites/dh/files/article_images/2018/01/24/655644.jpg') no-repeat;
-        background-position: -6rem;
-    }
-    .FYS{
-        background: url('https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1437202991i/15548077.jpg') no-repeat;
-    }
-    .capstoneIR{
-        background: url('https://st2.depositphotos.com/2745455/6626/v/380/depositphotos_66263571-stock-illustration-concept-of-global-education.jpg') no-repeat;
-    }
-    .data162{
-        background: url('https://getnave.com/blog/wp-content/uploads/2018/08/cycle-time-scatterplot-patterns.png') no-repeat;
-    }
-    .data272{
-        background: url('https://getnave.com/blog/wp-content/uploads/2018/08/cycle-time-scatterplot-patterns.png') no-repeat;
-    }
-    .democratization{
-        background: url('https://my.vanderbilt.edu/vanderbiltdivinity/files/2018/11/voting.jpg') no-repeat;
-    }
-section.teaching div div li:hover{
+   
+section.teaching div table tr td:hover{
     opacity: .5;
 }
 
 .caption {
-    display: block;
+    /* display: block; */
     padding: 0rem 0rem 0rem 0rem;
     text-align: center;
     font-size: 1.5em;
@@ -356,6 +357,21 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.lastTaught{
+    font-size: 2em;
+    font-family:'Garamond';
+    position: relative;
+    text-align: center;
+}
+
+.courseDescription{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    padding: 0rem 0rem 2rem 0rem;
+
 }
 
 
