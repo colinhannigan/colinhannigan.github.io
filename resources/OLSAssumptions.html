@@ -1,0 +1,268 @@
+// Dashboard
+POLS222
+Assumptions of OLS (Linear Regression)
+<https://csbsju.instructure.com/courses/21161>
+
+Immersive Reader
+// <https://csbsju.instructure.com/courses/21161/student_view/1> //
+Skip To Content <#content>
+Dashboard <https://csbsju.instructure.com/>
+
+  *
+    Colin Hannigan
+    Account
+    <https://csbsju.instructure.com/profile/settings>
+  *
+    Dashboard
+    <https://csbsju.instructure.com/>
+  *
+    Courses
+    <https://csbsju.instructure.com/courses>
+  *
+    Calendar
+    <https://csbsju.instructure.com/calendar>
+  *
+    Inbox
+    <https://csbsju.instructure.com/conversations>
+  *
+    History
+    <#>
+  *
+    Commons
+    <https://csbsju.instructure.com/accounts/1/external_tools/213?launch_type=global_navigation>
+  *
+    10 unread release notes.10
+    Help
+    <http://help.instructure.com/>
+
+  *
+
+      
+    <#>
+
+Close <#>
+//
+
+  * /My Dashboard / <https://csbsju.instructure.com/>
+  * POLS222 <https://csbsju.instructure.com/courses/21161>
+  * Pages <https://csbsju.instructure.com/courses/21161/pages>
+  * Assumptions of OLS (Linear Regression)
+
+Immersive Reader
+// Student View
+<https://csbsju.instructure.com/courses/21161/student_view/1>
+Spring 2023
+
+  * Home <https://csbsju.instructure.com/courses/21161>
+  * Announcements
+    <https://csbsju.instructure.com/courses/21161/announcements>
+  * Assignments <https://csbsju.instructure.com/courses/21161/assignments>
+  * Discussions
+    <https://csbsju.instructure.com/courses/21161/discussion_topics>
+  * Grades <https://csbsju.instructure.com/courses/21161/grades>
+  * People <https://csbsju.instructure.com/courses/21161/users>
+  * Pages <https://csbsju.instructure.com/courses/21161/wiki>
+  * Files <https://csbsju.instructure.com/courses/21161/files>
+  * Syllabus
+    <https://csbsju.instructure.com/courses/21161/assignments/syllabus>
+  * Outcomes
+    /
+
+    / <https://csbsju.instructure.com/courses/21161/outcomes>
+  * Rubrics <https://csbsju.instructure.com/courses/21161/rubrics>
+  * Quizzes <https://csbsju.instructure.com/courses/21161/quizzes>
+  * Modules <https://csbsju.instructure.com/courses/21161/modules>
+  * BigBlueButton
+    /
+
+    / <https://csbsju.instructure.com/courses/21161/conferences>
+  * Collaborations
+    <https://csbsju.instructure.com/courses/21161/collaborations>
+  * Attendance
+    <https://csbsju.instructure.com/courses/21161/external_tools/44>
+  * Chat <https://csbsju.instructure.com/courses/21161/external_tools/126>
+  * Office 365
+    <https://csbsju.instructure.com/courses/21161/external_tools/478>
+  * New Analytics
+    <https://csbsju.instructure.com/courses/21161/external_tools/677>
+  * Portfolium
+    <https://csbsju.instructure.com/courses/21161/external_tools/708>
+  * LockDown Browser
+    <https://csbsju.instructure.com/courses/21161/external_tools/829>
+  * Microsoft OneDrive
+    <https://csbsju.instructure.com/courses/21161/external_tools/1554>
+  * Docuseek2
+    <https://csbsju.instructure.com/courses/21161/external_tools/1556>
+  * Microsoft Teams classes
+    <https://csbsju.instructure.com/courses/21161/external_tools/1563>
+  * Settings <https://csbsju.instructure.com/courses/21161/settings>
+
+View All Pages <https://csbsju.instructure.com/courses/21161/pages>
+//Published
+// Settings <#>
+
+  * Send To... <#>
+  * Copy To... <#>
+  * // Share to Commons
+    <https://csbsju.instructure.com/courses/21161/external_tools/213?launch_type=wiki_page_menu&pages[]=138612>
+
+
+  Assumptions of OLS (Linear Regression)
+
+Ordinary Least Squares (OLS)regression relies on a few key assumptions
+to make sure we can accurately and confidently interpret our results. If
+our models violate these assumptions, the math will (usually) still
+work, but our results will be called into question.
+
+ 
+
+*Here are the assumptions of OLS regression:*
+
+ 1.
+
+    Linearity
+
+ 2.
+
+    Representative sampling
+
+ 3.
+
+    No multi-collinearity(or perfect collinearity)
+
+ 4.
+
+    No heteroskedasticity
+
+ 5.
+
+    Independence (no autocorrelation)
+
+ 6.
+
+    Normally distributed errors, around 0.
+
+ 
+
+ 
+
+
+      Linearity
+
+The entire foundation of ordinary least squares (OLS) regression is the
+creation of a linear model (a line of best fit that minimizes
+"errors").If you have reason to suspect that your model behaves
+differently (like, maybe it's more of a U-shaped curve or an asymptotic
+curve) maybe don't do a regression. The key here is have a
+continuous/interval DV and ensure your theory supports a linear
+relationship between the IVs and that DV.
+
+ 
+
+
+      Representative sampling
+
+Your sample should be representative of the population you wish to
+generalize to. This is just basic research methods, not something
+special to OLS.
+
+ 
+
+
+      No multicollinearity
+
+*Multicollinearity *is a situation where one of our independent
+variables can be predicted from the other independent variables, too!
+
+  * Multicollinearity can cause problems with large variances and
+    inverted signs of the coefficients (so interpretation is harder).
+
+*Perfect collinearity*is also a problem: it means including multiple
+variables that completely/perfectly determine one another.
+
+  * (E.g.: if we have a variable for POLS major, we can't also have a
+    /separate /variable for Non-POLS major (because it perfectly
+    predicts POLS major and prevents the math from running).
+
+/*Diagnosis: */check correlations among the IVs. Tick the "colinearity
+diagnostics" box in the "Statistics" options and inspect the VIF values
+for large numbers (>5.0).**/*
+*/
+
+/*Solutions*/: remove massively collinear variables from the model
+entirely, find alternate measures/indicators that solve collinearity
+issues, exclude some "base category'" from the model when we create
+multiple "dummy'" variables.
+
+ 
+
+
+      No heteroskedasticity
+
+OLS assumes that the errors are homoskedastic.
+
+*Heteroskedasticity *is a big scary word that just describes
+inconsistency in the variance among the residuals (errors).
+
+  * If the variance is not consistent, it will make the standard errors
+    and confidence intervals too narrow or too wide, which undermines
+    trust in our results.
+
+/*Diagnosis: */In the "Plots" options, request a plot of *ZRESID (Y)
+against *ZPRED (X) to inspect the tightness of the clusters (tighter is
+better).
+
+/*Solution*/: redefine the variable, weight the variable, transform the
+variable to make homoskedasticerrors.
+
+ 
+
+
+      Independence (No autocorrelation)
+
+OLSassumes that observations and variables are independent of one
+another, which means that they shouldn't /cause /each other, too.
+
+*Autocorrelation***means correlation with itself.
+
+  * Autocorrelation happens a lot in data over time, when the outcome
+    last year explains the outcome this year, for example.
+  * Autocorrelation also happens when we measure the same thing in
+    multiple ways and include them all in the model.
+
+/*Diagnosis: */Tick the "Durbin-Watson" box in the "Statistics" options
+and inspect the Durbin-Watson statistic.
+
+  * D-W = 2 (no autocorrelation), D-W > 2 (negative autocorrelation),
+    D-W < 2 (positive autocorrelation)
+  * When D-W is between, like, 1.5 and 2.5, you're probably fine.
+
+/*Solution*/: remove obviously autocorrelated things (like if you have
+gdp04 in a model that tries to predict gdp08), really think through your
+theory and examine your measures to ensure that you don't include
+multiple measures of the same thing. You can also add or subtract
+covariates from the model to mitigate some of the autocorrelation.
+
+ 
+
+
+      *Normally distributed errors*
+
+OLSassumes that the mean of the error terms is zero, and that the errors
+are normally distributed around that mean of zero. If they're not, then
+we can't trust our predictions.
+
+/*Diagnosis: */In the "Plots" options, request a "normal probability
+plot" and inspect how much the plot deviates from the diagonal zero line
+(less deviation is better).
+
+/*Solution*/: Cry. Just take my word for it; it helps. Then explain the
+issue in your analysis so you and readers can take the results of the
+model with a grain of salt.
+
+//Previous Previous: Stats Interpretation Homework
+<https://csbsju.instructure.com/courses/21161/modules/items/723258>
+Next// Next: Choosing the Appropriate Tests
+<https://csbsju.instructure.com/courses/21161/modules/items/752706>
+
+567c028f-e850-4bc8-a2e4-8dd6148c4e64
